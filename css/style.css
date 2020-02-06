@@ -14,6 +14,7 @@ body {
 }
 
 .container {
+  width: 95%;
   max-width: 1140px;
   margin: auto;
 }
@@ -235,9 +236,158 @@ body {
   text-decoration: none;
   color: rgba(112, 110, 116, 1);
   margin-right: 25px;
-  
+
 }
 
 .copiright {
   color: rgba(112, 110, 116, 1);
+}
+
+.menu-btn {
+  display: none;
+}
+
+/* resposive */
+
+@media (max-width: 760px) {
+  .play {
+    display: none;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .copiright {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .footer-link:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .menu-btn {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .menu-btn::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: -7px;
+    transition: transform 0.2ms;
+  }
+
+  .menu-btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 7px;
+    transition: transform 0.2s;
+  }
+
+  .menu-btn-active {
+    height: 0;
+  }
+
+  .menu-btn-active::before {
+    transform: rotate(45deg);
+    margin-top: 0;
+
+  }
+
+  .menu-btn-active::after {
+    transform: rotate(-45deg);
+    margin-top: 0;
+  }
+
+  .header {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #9D2929;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 60px;
+    width: 250px;
+    padding-bottom: 40px;
+  }
+
+  .hader-active {
+    display: flex;
+  }
+
+  .menu-list {
+    margin: auto;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22px;
+  }
+
+  .menu-link {
+    margin: 0;
+    margin-bottom: 17px;
+  }
+
+  .social {
+    order: 1;
+    margin-top: 25px;
+  }
+
+  .social-link:first-child {
+    margin-left: 0;
+  }
+
+  .swiper-container {
+    max-width: 80%;
+  }
+
+  body {
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top right 40%;
+  }
+
+  .main-content {
+    margin-top: 300px;
+    margin-bottom: 40px;
+  }
+
+  .main-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 66px;
+  }
+
+  .button {
+    margin-top: 25px;
+  }
+  .series {
+    width: 80%;
+  }
 }
