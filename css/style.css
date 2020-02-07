@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/img/background.jpg);
+  background-image: url(img/background.jpg);
   background-repeat: no-repeat;
   background-position: top right 20%;
 }
