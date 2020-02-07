@@ -49,18 +49,21 @@ body {
   font-size: 14px;
   line-height: 16px;
   margin-bottom: 16px;
-  display: block:
+  display: block;
+  animation-delay: 0.1s;
 }
 
 .rating {
   display: flex;
   align-items: center;
+  animation-delay: 0.4s;
 }
 
 .rating-number {
   font-size: 12px;
   line-height: 14px;
   padding-left: 10px;
+  animation-delay: 0.4s;
 }
 
 @font-face {
@@ -77,6 +80,7 @@ body {
   font-size: 76px;
   line-height: 89px;
   margin: 10px 0px;
+  animation-delay: 0.5s;
 }
 
 
@@ -84,15 +88,23 @@ body {
   max-width: 456px;
   font-size: 14px;
   line-height: 150%;
+  animation-delay: 0.7s;
 }
 
 .button {
+  display: inline-block;
   background: #9D2929;
   border-radius: 8px;
   color: #FFFFFF;
   border: none;
   padding: 22px 72px;
   margin-top: 40px;
+  text-decoration: none;
+  animation-delay: 1s;
+}
+
+.button:active {
+  color: #FFFFFF;
 }
 
 .main-content {
@@ -102,6 +114,9 @@ body {
 }
 
 .play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #9D2929;
   width: 100px;
   height: 100px;
@@ -109,6 +124,7 @@ body {
   border: none;
   position: relative;
   margin: auto;
+  animation: pulse 0.5s ease-in-out 1.5s infinite;
 }
 
 .play::before {
@@ -121,10 +137,11 @@ body {
   border-radius: 50%;
   left: -16px;
   top: -16px;
+  animation: pulse 0.5s ease-in-out 1.5s infinite;
 }
 
 .play-img {
-  position: relative;
+  position: absolute; 
   transform: translateX(5px);
 }
 
