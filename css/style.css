@@ -157,35 +157,35 @@ body {
 
 
 .series-1 {
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/../img/series/series_1.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series_1.jpg);
 }
 
 .series-2 {
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/../img/series/series_2.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series_2.jpg);
 }
 
 .series-3 {
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/../img/series/series_3.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series_3.jpg);
 }
 
 .series-4 {
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/../img/series/series_4.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series_4.jpg);
 }
 
 .series-5 {
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/../img/series/series_5.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series_5.jpg);
 }
 
 .series-6 {
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/../img/series/series_6.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series_6.jpg);
 }
 
 .series-7 {
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/../img/series/series_7);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series_7);
 }
 
 .series-8 {
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/../img/series/series_8.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series_8.jpg);
 }
 
 .card {
@@ -219,7 +219,7 @@ body {
   width: 32px;
   height: 23px;
   border: none;
-  background-image: url(/../img/arrow.svg);
+  background-image: url(../img/arrow.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-color: transparent;
@@ -385,7 +385,7 @@ body {
   }
 
   body {
-    background-image: url(/../img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-position: top right 40%;
   }
